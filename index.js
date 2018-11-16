@@ -12,7 +12,7 @@ bot.on('message', (message) => {
 	letreado = letreado.replace(/4/g, "a");
 	var limpio = letreado.replace(/[^a-zA-Z]/g, "");
 	var recorte = limpio.slice(-4);
-		if (recorte.toLowerCase() == "once" | recorte.toLowerCase() == "doce" | recorte.toLowerCase() == "doze" | recorte.toLowerCase() == "dose" | recorte.toLowerCase() == "onse" | recorte.toLowerCase() == "onze) {
+		if (recorte.toLowerCase() == "once" | recorte.toLowerCase() == "doce" | recorte.toLowerCase() == "doze" | recorte.toLowerCase() == "dose" | recorte.toLowerCase() == "onse" | recorte.toLowerCase() == "onze") {
 			message.channel.sendMessage("Chupalo Entonce");
 		}
 
