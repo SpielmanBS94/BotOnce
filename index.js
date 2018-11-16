@@ -47,7 +47,7 @@ bot.on('message', (message) => {
 	//POR EL CULO TE LA HINCO//
 
 	recorte = limpio.slice(-5);
-		if (recorte.toLowerCase() == "cinco" | recorte.toLowerCase() == "sinco" | recorte.toLowerCase() == "sinco") {
+		if (recorte.toLowerCase() == "cinco" | recorte.toLowerCase() == "sinco" | recorte.toLowerCase() == "zinco") {
 			message.channel.sendMessage("Por el Culo te la Hinco");
 		}
 		if (mensaje.endsWith("5")) {
