@@ -47,7 +47,7 @@ bot.on('message', (message) => {
 	//POR EL CULO TE LA HINCO//
 
 	recorte = limpio.slice(-5);
-		if (recorte.toLowerCase() == "cinco") {
+		if (recorte.toLowerCase() == "cinco" | recorte.toLowerCase() == "sinco" | recorte.toLowerCase() == "sinco") {
 			message.channel.sendMessage("Por el Culo te la Hinco");
 		}
 		if (mensaje.endsWith("5")) {
@@ -61,7 +61,7 @@ bot.on('message', (message) => {
 	//TE LA METO POR EL TRASERO//
 
 	recorte = limpio.slice(-4);
-		if (recorte.toLowerCase() == "cero" | recorte.toLowerCase() == "zero") {
+		if (recorte.toLowerCase() == "cero" | recorte.toLowerCase() == "zero" | recorte.toLowerCase() == "sero") {
 			message.channel.sendMessage("Te la meto por el Trasero");
 		}
 		if (mensaje.endsWith("0")) {
@@ -88,7 +88,7 @@ bot.on('message', (message) => {
         //TE LA METIO PINOCHO//
 
 	recorte = limpio.slice(-4);
-		if (recorte.toLowerCase() == "ocho") {
+		if (recorte.toLowerCase() == "ocho" | recorte.toLowerCase() == "osho" | recorte.toLowerCase() == "ozho") {
 			message.channel.sendMessage("Te la Metio Pinocho");
 		}
 		if (mensaje.endsWith("8")) {
