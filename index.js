@@ -9,9 +9,10 @@ bot.on('message', (message) => {
 	var mensaje = message.content;
 	var letreado = mensaje.replace(/0/g, "o");
 	letreado = letreado.replace(/3/g, "e");
+	letreado = letreado.replace(/4/g, "a");
 	var limpio = letreado.replace(/[^a-zA-Z]/g, "");
 	var recorte = limpio.slice(-4);
-		if (recorte.toLowerCase() == "once" | recorte.toLowerCase() == "doce") {
+		if (recorte.toLowerCase() == "once" | recorte.toLowerCase() == "doce" | recorte.toLowerCase() == "doze" | recorte.toLowerCase() == "dose" | recorte.toLowerCase() == "onse" | recorte.toLowerCase() == "onze) {
 			message.channel.sendMessage("Chupalo Entonce");
 		}
 
